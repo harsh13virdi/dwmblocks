@@ -1,6 +1,6 @@
 # dwmblocks
 My fork of dwmblocks
 
-#Dependencies
+# Dependencies
 
 1. Nerd fonts complete
