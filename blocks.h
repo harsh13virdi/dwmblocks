@@ -3,13 +3,13 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
 	/*System State*/
-	{"",		"sysstate.sh",							5,             0},
+	{"",		"sysstate.sh",					5,             0},
 
-	/*Kernel verison*/
-	{"  :",    "uname -a | awk '{print $3}'",					3600,             0},
+	/*Vol*/
+	{"",		"volstatus.sh",					0,             10},
 
 	/*Date*/
-	{"", 		"date '+%b %d (%a) %I:%M%p'",					30,		0},
+	{"", 		"date '+%b %d (%a) %I:%M%p'",			30,		0},
 
 
 };
