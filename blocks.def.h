@@ -9,7 +9,7 @@ static const Block blocks[] = {
 	{"",		"volstatus.sh",					0,             10},
 
 	/*Date*/
-	{"", 		"date '+%b %d (%a) %I:%M%p'",			30,		0},
+	{"", 		"datetimectl",			30,		0},
 
 
 };
